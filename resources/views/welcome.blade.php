@@ -8,6 +8,6 @@
             34zDcJftTVo2XFs6y1HwrhpLFDNncqukTa
         </ul>
     </div>
-    <x-game-section></x-game-section>
+    <x-game-display></x-game-display>
     <x-twitch-stream></x-twitch-stream>
 </x-layout>
