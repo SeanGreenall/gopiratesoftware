@@ -14,7 +14,7 @@
                 <div class="space-x-12 font-bold text-lg">
                     <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="/crew">CREW</a>
                     <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="/games">GAMES</a>
-                    <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="">SUPPORT</a>
+                    <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="/support">SUPPORT</a>
                 </div>
                 <div class="w-[200px]">
                     <a href="/">

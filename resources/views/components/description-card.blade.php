@@ -1,4 +1,4 @@
-@props(['title', 'image_source', 'description', 'description_2'])
+@props(['title', 'image_source', 'description', 'description_2' => ''])
 <div class="flex justify-center container mx-auto py-10">
     <div class="w-[800px] text-center rounded-lg overflow-hidden shadow-md">
         <h2 class="text-3xl font-bold pb-10">{{ $title }}</h2>

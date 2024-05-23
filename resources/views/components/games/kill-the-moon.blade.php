@@ -8,9 +8,6 @@
             Kill The Moon is a fast paced shoot em\' up roguelite dungeon runner. Power up your space shotgun, strap a telly to your head, and get to saving what\'s left of Earth. Or don\'t. 
             Do whatever, it\'s your holographic apocalypse.
             '" 
-            :description_2="'
-            
-            '"
             />
         </div>
         <div class="flex justify-center">
@@ -24,9 +21,6 @@
             The moon is haunted by fallen past heroes. That\'s right, haunted. Get out there and get their parts back. Might need to really hunt for them though. 
             Some of them ate it in pretty messed up ways. Maybe one of these worthless rat mechanics can get them running and gunning again.
             '" 
-            :description_2="'
-            
-            '"
             />
         </div>
         <div class="flex justify-center">
@@ -41,9 +35,6 @@
             It\'s bad out there, kid. Real bad. Just shoot everything that moves until it stops moving. 
             Then shoot it again just to make sure.
             '"
-            :description_2="'
-
-            '"
             />
         </div>
         <div class="flex justify-center">
@@ -56,9 +47,6 @@
             :description="'
             Lots of stuff to avoid out on the moon. You\'ll have to be quick on your feet... jetpack... tentacles. 
             You get the idea. Just try not to die to traps. It\'s embarassing. I\'d be embarassed.
-            '"
-            :description_2="'
-
             '"
             />
         </div>

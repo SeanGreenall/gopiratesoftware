@@ -10,9 +10,6 @@
             Together with his faithful companion Baron, Lore manages to make it through each day. 
             Lore has an incredibly bad habit of never cleaning up his socks and they can be found nearly everywhere.
             '" 
-            :description_2="'
-            
-            '"
             />
         </div>
         <div class="flex justify-center">
@@ -27,9 +24,6 @@
             This helps to balance out Lores innate negativity and unease. Baron believes his only purpose is to make Lores life fun, engaging, and meaningful. 
             Because of their reliance on one another the duo are essentially inseperable.
             '" 
-            :description_2="'
-            
-            '"
             />
         </div>
         <div class="flex justify-center">
@@ -44,9 +38,6 @@
             His home serves as a makeshift library with tomes littering the walls and floor haphazardly. 
             Binder knows a lot more than he lets on but he prefers to allow others the pleasure of discovering things for themselves. 
             Binder has an intense addiction to apples but will not admit this fact to any living soul.
-            '"
-            :description_2="'
-
             '"
             />
         </div>

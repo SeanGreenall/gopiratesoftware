@@ -11,9 +11,6 @@
             To me all of these add up to a single burning question. What made these and other role-playing games fun for me?
             I set out to list a set of mechanics that I found compelling throughout my life and then cut things that never seemed to fit.
             '" 
-            :description_2="'
-            
-            '"
             />
         </div>
         <div class="flex justify-center">
@@ -33,9 +30,6 @@
             Powers that can trigger in combat under certain conditions or from investigating objects in the world.
             The world helps you along and you help yourself to things you have learned within it.
             '" 
-            :description_2="'
-            
-            '"
             />
         </div>
         <div class="flex justify-center">
@@ -75,9 +69,6 @@
             Heartbound will be filled with hidden content in every way I can find to hide it. 
             Every public announcement, character, or even the game files themselves may contain another piece of the puzzle.
             '" 
-            :description_2="'
-            
-            '"
             />
         </div>
         <div class="flex justify-center">
