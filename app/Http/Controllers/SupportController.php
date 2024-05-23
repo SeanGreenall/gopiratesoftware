@@ -2,31 +2,23 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Support;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class SupportController extends Controller
 {
     public function index()
     {
-        $support_questions = [
-            [
-                'id' => 1,
-                'owner' => 'Pirate Software',
-                'title' => 'Where can I buy your games?',
-                'description' => '
-                    We have a steam page called "Pirate Software"
-                '
-            ]
-        ];
+        $support_questions = DB::table('supports')->latest()->get();
 
         return view('support.index', [
             'support_questions' => $support_questions
         ]);
     }
 
-    public function show($question)
+    public function show(Support $question)
     {
-        dd($question);
-        //return view('support.show', ['question' => $question]);
+        return view('support.show', ['question' => $question]);
     }
 }
