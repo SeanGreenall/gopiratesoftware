@@ -20,6 +20,7 @@ Route::get('/support', [SupportController::class, 'index']);
 Route::get('/support/{question}', [SupportController::class, 'show']);
 
 Route::get('/news', [NewsController::class, 'index']);
+Route::get('/news/{news}', [NewsController::class, 'show']);
 
 // Games //
 Route::get('/games/heartbound', function () {

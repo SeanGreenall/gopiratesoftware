@@ -1,38 +1,38 @@
 <x-layout>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 space-y-4">
-        <div class="support-portal-list grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 pb-8">
-            <a href="https://www.reddit.com/r/Astroneer/" class="support-link bg-cover bg-center rounded-lg overflow-hidden shadow-md relative h-72 flex align-center justify-between flex-wrap">
-                <div class="m-4 z-10">
-                    <h2 class="text-3xl font-semibold mb-40 ">CHECK OUR SUBREDDIT</h2>
-                    <p class="text-white-700"></p>
+        <h1 class="text-3xl font-thin pb-5">GOT A QUESTION? NEED SOME ANSWERS?</h1>
+        <div class="container mx-auto pb-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                <div class=" overflow-hidden shadow-md h-60 expand opacity-75 hover:opacity-100">
+                    <a href="https://discord.gg/piratesoftware" class="relative">
+                        <h2 class="text-3xl font-bold">JOIN OUR DISCORD</h2>
+                        <img src="{{ Vite::asset('resources/images/support-t4.jpg') }}" alt="An image of the Champions of Breakfast logo" class="w-full h-max object-cover absolute">
+                    </a>
                 </div>
-                <img src="{{ Vite::asset('resources/images/support-t1.jpg') }}" alt="Background Image" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0 opacity-50">
-            </a>
-            <a href="https://www.reddit.com/r/Astroneer/" class="support-link bg-cover bg-center rounded-lg overflow-hidden shadow-md relative h-72 flex align-center justify-between flex-wrap">
-                <div class="m-4 z-10">
-                    <h2 class="text-3xl font-semibold mb-40 ">WIKI</h2>
-                    <p class="text-white-700"></p>
+                <div class=" overflow-hidden shadow-md h-60 expand opacity-75 hover:opacity-100">
+                    <a href="https://www.reddit.com/r/Heartbound/?rdt=43406" class="relative">
+                        <h2 class="text-3xl font-bold">CHECK OUR SUBREDDIT</h2>
+                        <img src="{{ Vite::asset('resources/images/support-t2.jpg') }}" alt="An image of the Champions of Breakfast logo" class="w-full h-max object-cover absolute">
+                    </a>
                 </div>
-                <img src="{{ Vite::asset('resources/images/support-t2.jpg') }}" alt="Background Image" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0 opacity-50">
-            </a>
-            <a href="https://www.reddit.com/r/Astroneer/" class="support-link bg-cover bg-center rounded-lg overflow-hidden shadow-md relative h-72 flex align-center justify-between flex-wrap">
-                <div class="m-4 z-10">
-                    <h2 class="text-3xl font-semibold mb-40 ">JOIN OUR DISSCORD</h2>
-                    <p class="text-white-700"></p>
+                <div class=" overflow-hidden shadow-md h-60 expand opacity-75 hover:opacity-100">
+                    <a href="/games/championsofbreakfast" class="relative">
+                        <h2 class="text-3xl font-bold">EMAIL US</h2>
+                        <img src="{{ Vite::asset('resources/images/support-t3.jpg') }}" alt="An image of the Champions of Breakfast logo" class="w-full h-max object-center absolute">
+                    </a>
                 </div>
-                <img src="{{ Vite::asset('resources/images/support-t3.jpg') }}" alt="Background Image" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0 opacity-50">
-            </a>
-            <a href="https://www.reddit.com/r/Astroneer/" class="support-link bg-cover bg-center rounded-lg overflow-hidden shadow-md relative h-72 flex align-center justify-between flex-wrap">
-                <div class="m-4 z-10">
-                    <h2 class="text-3xl font-semibold mb-40 ">EMAIL US</h2>
-                    <p class="text-white-700"></p>
+                <div class=" overflow-hidden shadow-md h-60 expand opacity-75 hover:opacity-100">
+                    <a href="/games/championsofbreakfast" class="relative">
+                        <h2 class="text-3xl font-bold">WIKI</h2>
+                        <img src="{{ Vite::asset('resources/images/support-t1.jpg') }}" alt="An image of the Champions of Breakfast logo" class="w-full h-max object-cover absolute">
+                    </a>
                 </div>
-                <img src="{{ Vite::asset('resources/images/support-t4.jpg') }}" alt="Background Image" class="absolute inset-0 w-full h-full object-cover rounded-lg z-0 opacity-50">
-            </a>
-        </div>
 
+            </div>
+        </div>
+        
         @foreach ($support_questions as $question)
-            <div class="space-y-4">
+            <div class="expand">
                 <a href="/support/{{ $question->id }}" class="block px-4 py-6 border border-gray-400 rounded-lg">
                     <div class="font-bold text-red-500 text-sm">
                         {{ $question->owner }}

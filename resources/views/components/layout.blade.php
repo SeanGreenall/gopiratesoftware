@@ -22,8 +22,8 @@
                     </a>
                 </div>
                 <div class="space-x-12 font-bold text-lg">
-                    <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="">NEWS</a>
-                    <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="https://discord.com/invite/piratesoftware">DISCORD</a>
+                    <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="/news">NEWS</a>
+                    <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="https://discord.gg/piratesoftware">DISCORD</a>
                     <a class="hover:border-b-2 hover:transition duration-150 ease-in-out" href="https://piratesoftware.bigcartel.com/products">MERCH</a>
                 </div>
             </div>
