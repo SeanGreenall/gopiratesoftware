@@ -5,25 +5,25 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
                 <div class=" overflow-hidden shadow-md h-60 expand opacity-75 hover:opacity-100">
                     <a href="https://discord.gg/piratesoftware" class="relative">
-                        <h2 class="text-3xl font-bold">JOIN OUR DISCORD</h2>
+                        <h2 class="text-3xl font-bold text-center">JOIN OUR DISCORD</h2>
                         <img src="{{ Vite::asset('resources/images/support-t4.jpg') }}" alt="An image of the Champions of Breakfast logo" class="w-full h-max object-cover absolute">
                     </a>
                 </div>
                 <div class=" overflow-hidden shadow-md h-60 expand opacity-75 hover:opacity-100">
                     <a href="https://www.reddit.com/r/Heartbound/?rdt=43406" class="relative">
-                        <h2 class="text-3xl font-bold">CHECK OUR SUBREDDIT</h2>
+                        <h2 class="text-3xl font-bold text-center">CHECK OUR SUBREDDIT</h2>
                         <img src="{{ Vite::asset('resources/images/support-t2.jpg') }}" alt="An image of the Champions of Breakfast logo" class="w-full h-max object-cover absolute">
                     </a>
                 </div>
                 <div class=" overflow-hidden shadow-md h-60 expand opacity-75 hover:opacity-100">
                     <a href="/games/championsofbreakfast" class="relative">
-                        <h2 class="text-3xl font-bold">EMAIL US</h2>
+                        <h2 class="text-3xl font-bold text-center">EMAIL US</h2>
                         <img src="{{ Vite::asset('resources/images/support-t3.jpg') }}" alt="An image of the Champions of Breakfast logo" class="w-full h-max object-center absolute">
                     </a>
                 </div>
                 <div class=" overflow-hidden shadow-md h-60 expand opacity-75 hover:opacity-100">
                     <a href="/games/championsofbreakfast" class="relative">
-                        <h2 class="text-3xl font-bold">WIKI</h2>
+                        <h2 class="text-3xl font-bold text-center">WIKI</h2>
                         <img src="{{ Vite::asset('resources/images/support-t1.jpg') }}" alt="An image of the Champions of Breakfast logo" class="w-full h-max object-cover absolute">
                     </a>
                 </div>

@@ -13,3 +13,9 @@ body {
 .expand:hover {
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 640px) {
+    .hide-nav {
+        display: none;
+    }
+}

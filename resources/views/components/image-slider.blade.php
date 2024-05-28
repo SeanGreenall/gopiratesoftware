@@ -2,10 +2,10 @@
     <div class="slider-container">
         <div class="slider">
             <div class="slide">
-                <img src="{{ Vite::asset('resources/images/lore_light.png') }}" alt="A picture of Lore smiling with the sun on his back.">
+                <img src="{{ Vite::asset('resources/images/promotion-image-1.jpg') }}" alt="A picture of Lore smiling with the sun on his back.">
             </div>
             <div class="slide">
-                <img src="{{ Vite::asset('resources/images/lore_dark.jpeg') }}" alt="A picture of Lore with a creepy smile and darkness everywhere.">
+                <img src="{{ Vite::asset('resources/images/promotion-image-2.jpg') }}" alt="A picture of Lore with a creepy smile and darkness everywhere.">
             </div>
             <div class="slide">
                 <img src="{{ Vite::asset('resources/images/lore_light.png') }}" alt="A picture of Lore smiling with the sun on his back.">

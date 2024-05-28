@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 text-center">
         <h2 class="mt-4 mb-4 font-bold text-red-500 text-lg">
             {{ $question->owner }}.
         </h2>
